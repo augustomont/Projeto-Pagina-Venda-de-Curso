@@ -38,13 +38,14 @@ body{
 
 .section-1{
     display: flex;
-    gap: 50px;
-    margin-top: 100px;
+    gap: 30px;
+    margin-top: 30px;
 }
 
 .ebook img{
     width: 230px;
-    height: auto;  
+    height: auto;
+    border-radius: 150px;  
 }
 
 .action-title{
