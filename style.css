@@ -47,9 +47,16 @@ body{
     height: auto;  
 }
 
+.action-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .action-title h2{
     font-size: 40px;
     color: var(--color-font);
+    text-align: center;
 }
 
 
@@ -100,7 +107,11 @@ body{
     align-items:center;
     border-radius: 10px;
     text-decoration: none;
-
+}
+.card:hover{
+    width: 210px;
+    height: 190px;
+    transition: .3s;
 }
 .cards>a:hover{
     box-shadow: 1px 1px 1px var(--color-button);
@@ -195,10 +206,7 @@ footer p{
         flex-direction: column;
         align-items: center;
     }
-    .action-title{
-        text-align: center;
-       
-    }
+    
     .action-title h2{
         font-size: 30px;
     }
